@@ -24,7 +24,7 @@ This script fetches stock price data from the [Tiingo API](https://api.tiingo.co
 ## Setup
 
 1. **Clone or Copy the Script**  
-   Save the script locally, e.g., `tiingo_script.sh`.
+   Save the script locally, e.g., `get-stock.sh`.
 
 2. **Store Your Tiingo API Key**  
    - Create a file (default: `tiingo_api_key.txt`) containing **only** your API key:
@@ -38,7 +38,7 @@ This script fetches stock price data from the [Tiingo API](https://api.tiingo.co
 
 3. **Make the Script Executable**  
    ```bash
-   chmod +x tiingo_script.sh
+   chmod +x get-stock.sh
    ```
 
 ---
@@ -47,12 +47,12 @@ This script fetches stock price data from the [Tiingo API](https://api.tiingo.co
 
 1. **Run the Script**  
    ```bash
-   ./tiingo_script.sh
+   ./get-stock.sh
    ```
    - By default, the script looks for a file named `tiingo_api_key.txt` in the same directory.
    - If you wish to specify a custom file for your API key, pass it as an argument:
      ```bash
-     ./tiingo_script.sh /path/to/your_key_file.txt
+     ./get-stock.sh /path/to/your_key_file.txt
      ```
 
 2. **Observe the Rotating Tickers**  

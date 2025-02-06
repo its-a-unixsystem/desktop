@@ -26,9 +26,9 @@ This script fetches cryptocurrency data from the [Kraken API](https://www.kraken
 ## Setup
 
 1. **Create or Copy the Script**  
-   Save the script locally (e.g., `coin_price.sh`) and make it executable:
+   Save the script locally (e.g., `coinprice.sh`) and make it executable:
    ```bash
-   chmod +x coin_price.sh
+   chmod +x coinprice.sh
    ```
 
 2. **(Optional) Create a Pairs File**  
@@ -52,15 +52,15 @@ This script fetches cryptocurrency data from the [Kraken API](https://www.kraken
 1. **Run the Script**  
    If you have a script version that hardcodes pairs, simply execute:
    ```bash
-   ./coin_price.sh
+   ./coinprice.sh
    ```
    If your script reads from `pairs.txt`:
    ```bash
-   ./coin_price.sh pairs.txt
+   ./coinprice.sh pairs.txt
    ```
    or provide another file path:
    ```bash
-   ./coin_price.sh /path/to/your_pairs_file.txt
+   ./coinprice.sh /path/to/your_pairs_file.txt
    ```
 
 2. **Automatic Pair Rotation**  
