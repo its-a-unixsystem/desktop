@@ -1,6 +1,6 @@
 # sway related scripts
 
-[https://github.com/its-a-unixsystem/barstocker](barstiocker)
+[barstocker](https://github.com/its-a-unixsystem/barstocker)
 Universal Rust app to fetch crypto and stock prices
 
 ## deprecated
