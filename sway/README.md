@@ -1,10 +1,7 @@
 # sway related scripts
 
-[stocker](stocker/README.md)
-fetch stock prices via Tiingo to display as json on waybar.
-
-[coinprices.sh](coinprices.md)
-Get crypto coin prices from kraken to display via waybar.
+[https://github.com/its-a-unixsystem/barstocker](barstiocker)
+Universal Rust app to fetch crypto and stock prices
 
 ## deprecated
 [get-stock.sh](get-stock.md)
