@@ -1,0 +1,16 @@
+[
+    {
+        "app_id": "firefox",
+        "text_color": "orange"
+    },
+    {
+        "app_id": "org.gnome.Terminal",
+        "text_color": "#00ff00",
+        "bg_color": "#000000"
+    },
+    {
+        "match": "slack",
+        "text_color": "white",
+        "bg_color": "#4A154B"
+    }
+]
